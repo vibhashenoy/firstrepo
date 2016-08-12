@@ -1,2 +1,2 @@
 # firstrepo
-just learning. 
+just learning.  now learning how to edit and comit. 
