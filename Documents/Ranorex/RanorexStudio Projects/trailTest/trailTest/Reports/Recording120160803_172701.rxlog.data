@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a13f16f4c9a0a90"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Vibha Shenoy"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="03-08-2016 17:27:10"
+		timestampiso="2016-08-03T11:57:10"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'trailTestRepository.Dubber.UserEmail'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.122"
+			timeRelativeToTestModuleStartTime="00:01.124"
+			timeWallClock="17:27:11"
+			time="00:01.122"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'Firefox' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.300"
+			timeRelativeToTestModuleStartTime="00:01.302"
+			timeWallClock="17:27:11"
+			time="00:01.300"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dubber.UserEmail' at 157;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.593"
+			timeRelativeToTestModuleStartTime="00:22.595"
+			timeWallClock="17:27:33"
+			time="00:22.593"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_74cea307_b6de8873_trace.jpg"
+			errthumb=".\Recordin_74cea307_b6de8873_trace_thumb.jpg">
+			<message>
+				Mouse Left Up item 'Dubber.UserEmail' at 9;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.310"
+			timeRelativeToTestModuleStartTime="00:46.312"
+			timeWallClock="17:27:56"
+			time="00:46.310"
+			level="Info"
+			category="Keyboard"
+			errimg=".\Recordin_74cea307_59d7bbd7_trace.jpg"
+			errthumb=".\Recordin_74cea307_59d7bbd7_trace_thumb.jpg">
+			<message>
+				Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net{Tab}' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.729"
+			timeRelativeToTestModuleStartTime="01:46.731"
+			timeWallClock="17:28:57"
+			time="01:46.729"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_74cea307_a83e6e07_trace.jpg"
+			errthumb=".\Recordin_74cea307_a83e6e07_trace_thumb.jpg">
+			<message>
+				Failed to find item 'trailTestRepository.Dubber.UserEmail'.<br/>No element found for path '/dom[12]//input[#'user_email']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at trailTest.trailTestRepositoryFolders.DubberAppFolder.get_UserEmail() in c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\trailTestRepository.cs:line 141
+   at trailTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs:line 97
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="97"
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

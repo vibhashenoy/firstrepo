@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12f8405c83223952"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Vibha Shenoy"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="03-08-2016 17:23:29"
+		timestampiso="2016-08-03T11:53:29"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.141"
+			timeRelativeToTestModuleStartTime="00:01.142"
+			timeWallClock="17:23:30"
+			time="00:01.141"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://tigers.dubber.net/login' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.308"
+			timeRelativeToTestModuleStartTime="00:01.309"
+			timeWallClock="17:23:30"
+			time="00:01.308"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dubber.UserEmail' at 157;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.370"
+			timeRelativeToTestModuleStartTime="00:05.371"
+			timeWallClock="17:23:34"
+			time="00:05.370"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dubber.UserEmail' at 9;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.630"
+			timeRelativeToTestModuleStartTime="00:06.631"
+			timeWallClock="17:23:36"
+			time="00:06.630"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net{Tab}' with focus on 'Dubber.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'user_email']"
+				fullname="trailTestRepository.Dubber.UserEmail"
+				id="12b930ead0194865a8044f506d96e6a1"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.166"
+			timeRelativeToTestModuleStartTime="00:09.167"
+			timeWallClock="17:23:38"
+			time="00:09.166"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{RShiftKey down}P@{RShiftKey up}ssword1'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="100"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.199"
+			timeRelativeToTestModuleStartTime="00:10.200"
+			timeWallClock="17:23:39"
+			time="00:10.199"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.SubmitButton' at 41;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//input[#'submit_button']"
+				fullname="trailTestRepository.Dubber.SubmitButton"
+				id="c80c42e79d744644a989f419966de9a6"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.520"
+			timeRelativeToTestModuleStartTime="00:11.521"
+			timeWallClock="17:23:40"
+			time="00:11.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.ManageDapsButton' at 18;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//a[#'manage_daps_button']"
+				fullname="trailTestRepository.Dubber.ManageDapsButton"
+				id="9fe96711c5e9474daf561982888130cd"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.214"
+			timeRelativeToTestModuleStartTime="00:14.215"
+			timeWallClock="17:23:43"
+			time="00:14.214"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.AccountTab' at 41;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//a[#'account_tab']"
+				fullname="trailTestRepository.Dubber.AccountTab"
+				id="eedac8a03c784a8a8ff4b2be193825fc"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.485"
+			timeRelativeToTestModuleStartTime="00:15.486"
+			timeWallClock="17:23:44"
+			time="00:15.485"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="113"
+				loglvl="Warn"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.135"
+			timeRelativeToTestModuleStartTime="00:16.136"
+			timeWallClock="17:23:45"
+			time="00:16.135"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.IconCogIconWhite' at 4;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//a[#'profile-ddt']/i"
+				fullname="trailTestRepository.Dubber.IconCogIconWhite"
+				id="79935480f75345e3be9f84290f86e6db"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.346"
+			timeRelativeToTestModuleStartTime="00:17.347"
+			timeWallClock="17:23:46"
+			time="00:17.346"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dubber.DropDownLogout' at 66;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[12]//a[#'drop_down_logout']"
+				fullname="trailTestRepository.Dubber.DropDownLogout"
+				id="170b2c2d12f749ab9f8c6281e3c737fb"
+				timeout="60000"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

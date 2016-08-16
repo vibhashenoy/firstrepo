@@ -1,0 +1,106 @@
+﻿<repository
+name="trailTestRepository"
+id="ff2a9ac8-0616-417e-b85a-2bb68baed5e5"
+rxversion="6.0">
+	<codegen
+	classname="trailTestRepository"
+	namespace="trailTest"/>
+	<rootfolder
+	name="Root"
+	id="2c3bd14e-d0c1-46f2-932f-48df6e1fb514"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Dubber"
+		id="c360ccc2-36a2-4d90-99d6-ba6cea38d7d8"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[12]"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="UserEmail"
+			id="12b930ea-d019-4865-a804-4f506d96e6a1"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[12]//input[#'user_email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="5f5627a5-d468-48bd-886e-a4ac76a0acf8">
+				/dom[12]//input[#'user_email']
+			</item>
+			<item
+			name="SubmitButton"
+			id="c80c42e7-9d74-4644-a989-f419966de9a6"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[12]//input[#'submit_button']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="454173da-a873-4914-a99b-9cd9547054b1">
+				/dom[12]//input[#'submit_button']
+			</item>
+			<item
+			name="ManageDapsButton"
+			id="9fe96711-c5e9-474d-af56-1982888130cd"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net' and @caption='Dubber' and @page='accounts']//a[#'manage_daps_button']"
+			addcaps="unknown,webelement,atag"
+			refimgid="7927e5cf-f0e3-4aef-9f79-6cc2def2c768">
+				/dom[12]//a[#'manage_daps_button']
+			</item>
+			<item
+			name="AccountTab"
+			id="eedac8a0-3c78-4a8a-8ff4-b2be193825fc"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net' and @caption='Dubber' and @page='daps']//a[#'account_tab']"
+			addcaps="unknown,webelement,atag"
+			refimgid="b3987f07-1e33-4533-b336-b4b4db4bd3f4">
+				/dom[12]//a[#'account_tab']
+			</item>
+			<item
+			name="IconCogIconWhite"
+			id="79935480-f753-45e3-be9f-84290f86e6db"
+			searchtimeout="30000ms"
+			capname="itag"
+			refpath="/dom[@domain='tigers.dubber.net' and @caption='Dubber' and @page='accounts']//a[#'profile-ddt']/i"
+			addcaps="unknown,webelement,itag"
+			refimgid="04ccf4cb-b211-482c-9c9f-f0d13397abd1">
+				/dom[12]//a[#'profile-ddt']/i
+			</item>
+			<item
+			name="DropDownLogout"
+			id="170b2c2d-12f7-49ab-9f8c-6281e3c737fb"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='tigers.dubber.net' and @caption='Dubber' and @page='accounts']//a[#'drop_down_logout']"
+			addcaps="unknown,webelement,atag"
+			refimgid="ce072de9-4543-4bf4-91eb-676900215608">
+				/dom[12]//a[#'drop_down_logout']
+			</item>
+			<basepath>
+				/dom[12]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

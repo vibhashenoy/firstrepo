@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="42.16s"
+		durationms="42164"
+		type="root"
+		rid="34dfb89a398969b7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Vibha Shenoy"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="03-08-2016 17:38:11"
+		timestampiso="2016-08-03T12:08:11"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="41.71s"
+			durationms="41712"
+			type="test suite"
+			rid="1aef3f2888f9e200"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="trailTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="41.68s"
+				durationms="41678"
+				type="test case"
+				rid="115c83b82fbd0e00"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="d7c60deb-d8c1-4e3c-84f4-e41959907b2a"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="41.62s"
+					durationms="41615"
+					type="test module"
+					rid="368a9eaf7d88f9f"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="8cd0216c-4fc2-4444-8b7e-2fb91a812c03"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings>
+						<varbinding
+							name="NewVariable"
+							value=""/>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.566"
+						timeRelativeToTestModuleStartTime="00:00.017"
+						timeWallClock="17:38:12"
+						time="00:00.566"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$NewVariable = ''
+						</message>
+						<metainfo
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.689"
+						timeRelativeToTestModuleStartTime="00:00.140"
+						timeWallClock="17:38:12"
+						time="00:00.689"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'https://tigers.dubber.net/login' with browser specified by variable $NewVariable in maximized mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+							codeline="95"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.213"
+						timeRelativeToTestModuleStartTime="00:00.664"
+						timeWallClock="17:38:12"
+						time="00:01.213"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'qa{RShiftKey down}+{RShiftKey up}4{RShiftKey down}@{RShiftKey up}dubber.net{Tab}' with focus on 'Dubber.UserEmail'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[12]//input[#'user_email']"
+							fullname="trailTestRepository.Dubber.UserEmail"
+							id="12b930ead0194865a8044f506d96e6a1"
+							timeout="60000"
+							codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\Recording1.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:42.163"
+						timeRelativeToTestModuleStartTime="00:41.614"
+						timeWallClock="17:38:53"
+						time="00:42.163"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

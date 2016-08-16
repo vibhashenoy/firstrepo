@@ -1,0 +1,8 @@
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\bin\Debug\trailTest.rxtmg
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\bin\Debug\trailTest.rxtst
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\bin\Debug\trailTest.exe.config
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\bin\Debug\trailTest.exe
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\bin\Debug\trailTest.pdb
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\obj\x86\Debug\trailTest.csprojResolveAssemblyReference.cache
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\obj\x86\Debug\trailTest.exe
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\trailTest\trailTest\obj\x86\Debug\trailTest.pdb
