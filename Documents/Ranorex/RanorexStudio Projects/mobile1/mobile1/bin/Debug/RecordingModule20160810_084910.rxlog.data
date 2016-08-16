@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25a1cb5fd9a54adc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Vibha Shenoy"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="10-08-2016 08:49:21"
+		timestampiso="2016-08-10T03:19:21"
+		timeoutfactor="1"
+		module="RecordingModule">
+		<detail>
+			RecordingModule
+		</detail>
+		<errmsg>
+			Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:30
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.130"
+			timeRelativeToTestModuleStartTime="00:01.132"
+			timeWallClock="08:49:23"
+			time="00:01.130"
+			level="Warn"
+			category="Data"
+			errimg=".\Recordin_f08a8997_8744d706_trace.jpg"
+			errthumb=".\Recordin_f08a8997_8744d706_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.230"
+			timeRelativeToTestModuleStartTime="00:01.232"
+			timeWallClock="08:49:23"
+			time="00:01.230"
+			level="Info"
+			category="Application"
+			errimg=".\Recordin_f08a8997_8744d706_trace.jpg"
+			errthumb=".\Recordin_f08a8997_8744d706_trace_thumb.jpg">
+			<message>
+				Run mobile app 'com.prueba.maverick' on device 'USB-300449f0b6253200'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\RecordingModule.cs"
+				codeline="95"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.296"
+			timeRelativeToTestModuleStartTime="00:31.298"
+			timeWallClock="08:49:53"
+			time="00:31.296"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_f08a8997_8a379976_trace.jpg"
+			errthumb=".\Recordin_f08a8997_8a379976_trace_thumb.jpg">
+			<message>
+				Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:30
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.Device.MobileDevice.WaitFor(ChannelState state)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.ShouldRestartApp(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.StartApplication(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at mobile1.RecordingModule.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\RecordingModule.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\RecordingModule.cs"
+				codeline="96"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

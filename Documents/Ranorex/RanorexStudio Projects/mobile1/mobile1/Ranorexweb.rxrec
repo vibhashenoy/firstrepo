@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="3547bee5-6810-4b28-b155-f139ed4cd095"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		Ranorexweb
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Ranorexweb"
+	namespace="mobile1"/>
+	<variables/>
+	<recorditems>
+		<runmobileapprecorditem
+		enabled="True"
+		optional="False"
+		duration="3500ms"
+		application="ranorex.RxBrowser"
+		devicename="USB-300449f0b6253200"
+		resetInitialState="True">
+			<comment/>
+			<bindings/>
+		</runmobileapprecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="10000ms"
+		searchpropertyid="0388f924-89db-4658-a791-7cdc71475a65"
+		attrname="PageUrl">
+			<comment>
+				Browse to site.
+			</comment>
+			<bindings/>
+			<info
+			sourcename=""
+			id="34e257fc-747c-449b-a245-956db607a438">
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser']//dom
+				</path>
+			</info>
+			<AttributeValue>
+				https://tigers.dubber.net/login
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="40f22869-016d-4313-af05-c373a982e996"
+		imagerect="0,0,600,50"
+		touchtype="Touch"
+		elementlocation="56;25"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="56"
+		sy="25">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="f18de854-371a-48eb-97d3-1cfeed19cf6c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="0,25,600,50"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						etUrl
+					</attribute>
+					<attribute
+					name="accessibilityid"
+					type="System.String">
+						Url
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Url
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						org.droidparts.widget.ClearableEditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1103758568
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']//container[@rid='UrlHeader']/text[@accessibilityid='Url']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1592a481-d1dc-4fa7-926d-ad645676b8f0">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="5310f39d-c079-442b-a22f-c142ce3fa677"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="f18de854-371a-48eb-97d3-1cfeed19cf6c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="0,25,600,50"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						10
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						google.com
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						etUrl
+					</attribute>
+					<attribute
+					name="accessibilityid"
+					type="System.String">
+						Url
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Url
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						org.droidparts.widget.ClearableEditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1103758568
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']//container[@rid='UrlHeader']/text[@accessibilityid='Url']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="acd8ea54-4447-443a-aa4e-5701d04ba247">
+				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
+			</helperscreenshot>
+			<AttributeValue>
+				google.com
+			</AttributeValue>
+		</setvaluerecorditem>
+		<remotekeyboardrecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d5937151-79a3-4ecb-a9a1-1f73e15ebbf4"
+		imagerect="0,0,600,1024"
+		key="{ENTER}">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="85e14f5f-b24b-4850-ba75-0ced64e3da89">
+				<element
+				role="form"
+				prefcap="form"
+				capabilities="mobileform, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				minattr="1"
+				index="0"
+				rect="0,0,600,1024"
+				snapElem="">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						RxBrowserActivity
+					</attribute>
+					<attribute
+					name="formtype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						com.android.internal.policy.impl.PhoneWindow$DecorView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1103728064
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
+	</recorditems>
+	<repository
+	name="mobile1Repository"
+	id="ec1e2e36-5280-4c39-af7b-60500713c648"
+	rxversion="6.0"
+	relativepath="mobile1Repository.rxrep">
+		<codegen
+		classname="mobile1Repository"
+		namespace="mobile1"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="7cdff45d-e861-44d6-8242-ffbcdb6e1e3f"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Ranorexweb.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

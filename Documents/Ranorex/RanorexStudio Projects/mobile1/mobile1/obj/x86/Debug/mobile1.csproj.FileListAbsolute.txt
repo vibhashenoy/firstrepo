@@ -1,0 +1,8 @@
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\bin\Debug\mobile1.rxtmg
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\bin\Debug\mobile1.rxtst
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\bin\Debug\mobile1.exe.config
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\bin\Debug\mobile1.exe
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\bin\Debug\mobile1.pdb
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\obj\x86\Debug\mobile1.csprojResolveAssemblyReference.cache
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\obj\x86\Debug\mobile1.exe
+C:\Users\Vibha Shenoy\Documents\Ranorex\RanorexStudio Projects\mobile1\mobile1\obj\x86\Debug\mobile1.pdb
