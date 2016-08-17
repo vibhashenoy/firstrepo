@@ -1,6 +1,14 @@
 
 sandeep edited those files 
 heyy..
+<<<<<<< HEAD
 wassup!!!!
 well good
 vbjeobveppojobneprnb
+=======
+<<<<<<< HEAD
+Editing...
+=======
+this is 
+>>>>>>> 7431aa08a544a0c27839fcbd14d05fcaf8f813e1
+>>>>>>> refs/remotes/origin/ranorexbranch
